@@ -1,6 +1,6 @@
-print("Calculadora Simples") 
+print("Calculadora Simples")
 print()
-print("\nProjeto criado 16/09/2026") 
+print("\nProjeto criado 16/09/2026")
 
 
 print("Escolha a operação:")
@@ -25,11 +25,11 @@ if opcao == "1":
 elif opcao == "2":
     print(f"A subtração de {num1} - {num2} é: {Subtração}")
 elif opcao == "3":
-    print(f"A multiplicação de {num1} * {num2} é: {Multiplicação}") 
+    print(f"A multiplicação de {num1} * {num2} é: {Multiplicação}")
 elif opcao == "4":
     if num2 == 0:
         print("Erro: Divisão por zero não é permitida.")
     else:
-        print(f"A divisão de {num1} / {num2} é: {Divisão}") 
+        print(f"A divisão de {num1} / {num2} é: {Divisão}")
 else:
     print("Opção inválida. Por favor, escolha uma operação válida.")
