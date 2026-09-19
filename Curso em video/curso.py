@@ -1,7 +1,6 @@
-print("Olá, mundo!")
+# operações com a função print()
 
-nome = input("Qual é o seu nome? ")
-idade = input("Qual é a sua idade? ")
-peso = input("Qual é o seu peso? ")
-
-print(f"Olá, {nome}! Você tem {idade} anos e pesa {peso} kg.")
+n1 = int(input('Digite um valor: '))
+n2 = int(input('Digite outro valor: '))
+s = n1 + n2
+print ("A soma entre {} e {} vale {}".format(n1, n2, s))
