@@ -11,7 +11,15 @@ print("4 - Divisão")
 
 opcao = input("Digite a operação desejada: ")
 num1 = float(input("Digite o primeiro número: "))
+print(num1.isnumeric())
+if not num1.isnumeric():
+    print("Erro: O primeiro número não é válido.")
+    exit()
 num2 = float(input("Digite o segundo número: "))
+print(num2.isnumeric())
+if not num2.isnumeric():
+    print("Erro: O segundo número não é válido.")
+    exit()
 
 print()
 
