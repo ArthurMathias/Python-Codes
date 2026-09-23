@@ -1,12 +1,26 @@
+
+print('=== CADASTRO ===')
+
+usuario_cadastrado = input('Crie seu usuário: ')
+if usuario_cadastrado.isalnum():
+    print('Nome válido!')
+
+if len(usuario_cadastrado) < 5:
+    print('Nome de usuário muito curto! Deve ter no mínimo 5 caracteres.')
+senha_cadastrada = input('Crie sua senha: ')
+if senha_cadastrada.isalnum():
+    print('Senha válida!')
+
+print('\nCadastro realizado com sucesso!')
+
+print('\n=== LOGIN ===')
+
 usuario = input('Usuário: ')
 senha = input('Senha: ')
 
-if usuario == 'Arthur' and senha == '1234':
+if usuario == usuario_cadastrado and senha == senha_cadastrada:
     print('Login realizado!')
     import calculadora
 else:
     print('Usuário ou senha incorretos!')
-
-
-
 
