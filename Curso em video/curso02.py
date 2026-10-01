@@ -7,15 +7,15 @@ print(type(n))
 
 #verificar se é número
 m = input('Digite algo: ')
-print(m.isnumeric())
+print("Número?", m.isnumeric())
 
 #verificar se é letra
 l = input('Digite algo: ')
-print(l.isalpha())
+print("Letra?", l.isalpha())
 
 #verificar se é alfanumérico (ver se possui letras e números) - caso não escreva nada, retorna False
 k = input('Digite algo: ')
-print(k.isalnum())
+print("Alfanumérico?", k.isalnum())
 
 
 #EXEMPLO DE VALIDAÇÃO DE DADOS
