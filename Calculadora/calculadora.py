@@ -15,7 +15,7 @@ while True:
         num1 = float(input("Digite o primeiro número: "))
     except ValueError:
         print("Erro: O primeiro número não é válido.")
-    exit()
+        exit()
 
     try:
         num1 = float(input("Digite o primeiro número: "))
