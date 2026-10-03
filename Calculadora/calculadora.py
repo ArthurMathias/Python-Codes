@@ -39,7 +39,7 @@ while True:
         print(f"A multiplicação de {num1} * {num2} é: {num1 * num2}")
     elif opcao == "4":
         if num2 == 0:
-            print("Divisão por zero não é permitida.")
+            print("Divisão por zero não é permitida!")
         else:
             print(f"A divisão de {num1} / {num2} é: {num1 / num2}")
     elif opcao == "5":
