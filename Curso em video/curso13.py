@@ -1,5 +1,6 @@
 print("-" * 30)
 print("Aluguel de Carros\n")
+from time import sleep
 print("-" * 30)
 #-------------------------------------
 while True:
@@ -8,7 +9,9 @@ while True:
     print("2. Uno")
     print("3. Civic")
     print("-" * 30)
+    sleep(2) 
     carro = input("Digite o modelo do carro que deseja alugar: ")
+    sleep(3)
 
     if carro == "Gol" or carro == "1":
         dias = int(input("Digite a quantidade de dias alugados: "))
@@ -19,7 +22,7 @@ while True:
         valor_total = valor_dias + valor_km
 
         print(f"\nO valor total a ser pago é: R${valor_total:.2f}")
-        break  # Sai do loop após calcular o valor para o Gol
+        break
 
     elif carro == "Uno" or carro == "2":
         dias = int(input("Digite a quantidade de dias que deseja alugar o carro: "))
@@ -30,7 +33,7 @@ while True:
         valor_total = valor_dias + valor_km
 
         print(f"\nO valor total a ser pago é: R${valor_total:.2f}")
-        break  # Sai do loop após calcular o valor para o Uno
+        break
     elif carro == "Civic" or carro == "3":
         dias = int(input("Digite a quantidade de dias que deseja alugar o carro: "))
         km_rodados = float(input("Digite a quantidade de quilômetros rodados: "))
@@ -40,6 +43,6 @@ while True:
         valor_total = valor_dias + valor_km
 
         print(f"\nO valor total a ser pago é: R${valor_total:.2f}")
-        break  # Sai do loop após calcular o valor para o Civic
+        break
     else:
         print("Modelo de carro inválido. Por favor, escolha um modelo disponível.")
