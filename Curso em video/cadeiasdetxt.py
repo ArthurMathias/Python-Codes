@@ -6,8 +6,8 @@ print(frase[9:14]) # Retorna a palavra Vídeo
 print("-" * 20)
 
 print("Tamanho da frase: {}".format(len(frase)))
-counter = frase.count('o') # Conta quantas vezes a letra 'o' aparece na frase
-print("Quantidade de vezes que 'o' aparece na frase: {}".format(counter))
+Contador = frase.count('o') # Conta quantas vezes a letra 'o' aparece na frase
+print("Quantidade de vezes que 'o' aparece na frase: {}".format(Contador))
 print("-" * 20)
 
 ver = "Curso" in frase
