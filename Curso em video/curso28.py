@@ -1,6 +1,11 @@
 print("Par ou ímpar")
-numero = int(input("Digite um número: "))
-if numero % 2 == 0:
-    print("O número é par.")
+print("-" * 20)
+
+num = int(input("Digite um número: "))
+resultado = num % 2
+if resultado == 0:
+    print("Este numero é par!!")
 else:
-    print("O número é ímpar.")
+    print("Este número é impar!!")
+
+print("-" * 20)
